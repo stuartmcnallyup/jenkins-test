@@ -7,21 +7,21 @@ pipeline {
 			}
 		}
 
-		stage(‘second stage’){
+		stage('second stage'){
 			steps {
-				sh “pwd”
+				sh "pwd"
 			}
 		}
 
-		stage(‘third stage’){
+		stage('third stage'){
 			steps {
-				sh “touch file.txt”
+				sh "touch file.txt"
 			}
 		}
 
-		stage(‘fourth stage’){
+		stage('fourth stage'){
 			steps {
-				sh “mv file.txt file1.txt”
+				sh "mv file.txt file1.txt"
 			}
 		}
 	}
